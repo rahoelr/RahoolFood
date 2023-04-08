@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeFragment">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:layout_gravity=""
+                    >
+
+                    <ImageView
+                        android:id="@+id/actionBar"
+                        android:src="@drawable/baseline_dehaze_24"
+                        android:layout_width="24dp"
+                        android:layout_weight="1"
+                        android:layout_height="24dp"/>
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:id="@+id/logo"
+                        android:src="@drawable/logo2"
+                        android:layout_weight="3"
+                        android:layout_height="23dp"/>
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:id="@+id/cart"
+                        android:layout_weight="1"
+                        android:src="@drawable/baseline_shopping_cart_24"
+                        android:layout_height="24dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/style_input"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="338dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:background="@android:color/transparent"
+                        android:hint="What do you want eat today?"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/near"
+                    android:layout_height="wrap_content"
+                    android:text="Nearby Restaurant"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+
+                <HorizontalScrollView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="185dp"
+                            android:layout_height="206dp"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:src="@drawable/ayam"
+                                    android:scaleType="centerCrop"
+                                    android:layout_width="185dp"
+                                    android:background="@drawable/style_foto_menu"
+                                    android:layout_height="120dp"/>
+
+                                <TextView
+                                    android:text="0.8 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Masayoshi Resto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.9 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="22rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="185dp"
+                            android:layout_height="206dp"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:src="@drawable/burger"
+                                    android:scaleType="centerCrop"
+                                    android:layout_width="185dp"
+                                    android:background="@drawable/style_foto_menu"
+                                    android:layout_height="120dp"/>
+
+                                <TextView
+                                    android:text="1.6 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Bimosaurus Cafe"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.6 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="9rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="185dp"
+                            android:layout_height="206dp"
+                            android:layout_margin="12dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="4dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:src="@drawable/mie"
+                                    android:scaleType="centerCrop"
+                                    android:layout_width="185dp"
+                                    android:background="@drawable/style_foto_menu"
+                                    android:layout_height="120dp"/>
+
+                                <TextView
+                                    android:text="2.5 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Mie Goreng Cafe"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.8 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="13rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/category"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+
+                <HorizontalScrollView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/promo"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Promo"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/fav"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Favorite"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/popular"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Popular"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/healthy"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Healthy"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/food"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fast Food"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/small_bite"
+                    android:layout_height="wrap_content"
+                    android:text="Special Promo For You"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_marginLeft="16dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="343dp"
+                        android:layout_height="86dp"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:src="@drawable/sate"
+                                android:layout_width="76dp"
+                                android:layout_height="86dp"/>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="0.2 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Masayoshi Resto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.9 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="22rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="343dp"
+                        android:layout_height="86dp"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:src="@drawable/sushi"
+                                android:scaleType="centerCrop"
+                                android:layout_width="76dp"
+                                android:layout_height="86dp"/>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="0.2 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Masayoshi Resto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.9 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="22rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="343dp"
+                        android:layout_height="86dp"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:src="@drawable/sate"
+                                android:layout_width="76dp"
+                                android:layout_height="86dp"/>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="0.2 KM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12dp"
+                                    android:layout_margin="7dp"
+                                    />
+
+                                <TextView
+                                    android:text="Masayoshi Resto"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="normal"
+                                    />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_margin="7dp"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:src="@drawable/star"
+                                        />
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="4.9 •"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="22rb+ rating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
