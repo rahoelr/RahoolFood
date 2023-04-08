@@ -6,10 +6,16 @@
     tools:context=".LocationFragment">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/google_maps"
         android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    </LinearLayout>
 
 </FrameLayout>
