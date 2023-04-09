@@ -22,7 +22,7 @@
     <TextView
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        android:text="Your Account Profile"
+        android:text="@string/your_account_profile"
         android:layout_width="wrap_content"
         android:textStyle="bold"
         android:textSize="18dp"
@@ -45,7 +45,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rahul Rahmatullah"
+        android:text="@string/rahul_rahmatullah"
         android:textColor="#1F1F1F"
         android:textSize="18dp"/>
 
@@ -70,7 +70,7 @@
         android:layout_marginTop="23dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Account"
+        android:text="@string/my_account"
         android:textSize="16dp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -93,7 +93,7 @@
         android:layout_weight="15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Payment Methods"
+        android:text="@string/payment_methods"
         android:textSize="14dp"
         android:textColor="#1F1F1F"
         />
@@ -122,7 +122,7 @@
             android:layout_weight="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rewards Member"
+            android:text="@string/rewards_member"
             android:textSize="14dp"
             android:textColor="#1F1F1F"
             />
@@ -151,7 +151,7 @@
             android:layout_weight="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Edit Account Profile"
+            android:text="@string/edit_account_profile"
             android:textSize="14dp"
             android:textColor="#1F1F1F"
             />
@@ -167,7 +167,7 @@
         android:layout_marginTop="23dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="General Settings"
+        android:text="@string/general_settings"
         android:textSize="16dp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -190,7 +190,7 @@
             android:layout_weight="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Support Center"
+            android:text="@string/support_center"
             android:textSize="14dp"
             android:textColor="#1F1F1F"
             />
@@ -219,7 +219,7 @@
             android:layout_weight="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="App Settings"
+            android:text="@string/app_settings"
             android:textSize="14dp"
             android:textColor="#1F1F1F"
             />
@@ -248,7 +248,7 @@
             android:layout_weight="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Share Feedback"
+            android:text="@string/share_feedback"
             android:textSize="14dp"
             android:textColor="#1F1F1F"
             />
@@ -259,6 +259,37 @@
             android:src="@drawable/baseline_arrow_forward_ios_24"/>
 
     </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mySensor"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:paddingRight="9dp"
+                android:src="@drawable/baseline_sensors_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_weight="15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_sensor"
+                android:textSize="14dp"
+                android:textColor="#1F1F1F"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

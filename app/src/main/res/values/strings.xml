@@ -2,4 +2,27 @@
     <string name="app_name">RahoolFood</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_account_profile">Your Account Profile</string>
+    <string name="rahul_rahmatullah">Rahul Rahmatullah</string>
+    <string name="my_account">My Account</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="rewards_member">Rewards Member</string>
+    <string name="edit_account_profile">Edit Account Profile</string>
+    <string name="general_settings">General Settings</string>
+    <string name="support_center">Support Center</string>
+    <string name="app_settings">App Settings</string>
+    <string name="share_feedback">Share Feedback</string>
+    <string name="hint">What do you want eat today?</string>
+    <string name="nearby_restaurant">Nearby Restaurant</string>
+    <string name="category">Category</string>
+    <string name="promo">Promo</string>
+    <string name="favorite">Favorite</string>
+    <string name="popular">Popular</string>
+    <string name="healthy">Healthy</string>
+    <string name="special_promo_for_you">Special Promo For You</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="home">Home</string>
+    <string name="location_restaurant">Location Restaurant</string>
+    <string name="account">Account</string>
+    <string name="my_sensor">My Sensor</string>
 </resources>

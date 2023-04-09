@@ -59,7 +59,7 @@
                         android:layout_height="48dp"
                         android:gravity="center"
                         android:background="@android:color/transparent"
-                        android:hint="What do you want eat today?"
+                        android:hint="@string/hint"
                         />
                 </LinearLayout>
 
@@ -69,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/near"
                     android:layout_height="wrap_content"
-                    android:text="Nearby Restaurant"
+                    android:text="@string/nearby_restaurant"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:textStyle="bold"
@@ -308,7 +308,7 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/category"
                     android:layout_height="wrap_content"
-                    android:text="Category"
+                    android:text="@string/category"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:textStyle="bold"
@@ -340,7 +340,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Promo"
+                                android:text="@string/promo"
                                 android:textSize="14dp"
                                 android:textColor="@color/black"
                                 />
@@ -363,7 +363,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Favorite"
+                                android:text="@string/favorite"
                                 android:textSize="14dp"
                                 android:textColor="@color/black"
                                 />
@@ -386,7 +386,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Popular"
+                                android:text="@string/popular"
                                 android:textSize="14dp"
                                 android:textColor="@color/black"
                                 />
@@ -409,7 +409,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Healthy"
+                                android:text="@string/healthy"
                                 android:textSize="14dp"
                                 android:textColor="@color/black"
                                 />
@@ -432,7 +432,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fast Food"
+                                android:text="@string/fast_food"
                                 android:textSize="14dp"
                                 android:textColor="@color/black"
                                 />
@@ -450,7 +450,7 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/small_bite"
                     android:layout_height="wrap_content"
-                    android:text="Special Promo For You"
+                    android:text="@string/special_promo_for_you"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:textStyle="bold"
